@@ -5,101 +5,186 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Landing Page</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/alt-style.css" />
   </head>
   <body>
+    <!--Header-->
     <header>
-      <nav>
+      <nav class="container">
         <ul>
-          <li><a class="header-logo" href="#">Header Logo</a></li>
-          <li class="push-left"><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
+          <li><a class="header-logo" href="#">Catz</a></li>
+          <li class="push-left"><a href="#">Adopt</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Necessity</a></li>
         </ul>
       </nav>
 
-      <div class="header-content-container">
-        <div class="left-header-content-container">
-          <h1>This website is awesome</h1>
-          <p>
-            This website has some subtext that goes here under the main title.
-            It's smaller font and the color is lower contrast
+      <!--Container for hero main text section-->
+      <div class="container header-content-container">
+        <div class="header-left-content-container">
+          <h1 class="hero-main-text">This cat is heckin' fluffy</h1>
+          <p class="hero-secondary-text">
+            I like both dog and cat but today I want to give special
+            appreciation for cats.
           </p>
           <button class="btn-sign-up">Sign up</button>
         </div>
-        <div class="right-header-content-container">
+        <div class="header-right-content-container">
           <img
-            src="http://via.placeholder.com/640x150"
-            alt="This is a placeholder for an image"
             class="hero-image"
+            src="./img/manja-vitolic-cat-hero-image-unsplash.jpg"
+            alt="Hero image"
           />
+          <p class="attribution-text">
+            Photo by
+            <a
+              class="attribution-text"
+              href="https://unsplash.com/@madhatterzone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Manja Vitolic</a
+            >
+            on
+            <a
+              class="attribution-text"
+              href="https://unsplash.com/s/photos/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
         </div>
       </div>
     </header>
 
+    <!--Random information section-->
     <div class="random-information-outer-container">
-      <h2 class="random-information-header">Some random information.</h2>
       <div class="random-information-inner-container">
-        <div class="random-information-content-container">
-          <img
-            src="http://via.placeholder.com/150x150"
-            alt="Random information image 1"
-          />
-          <p>This is some subtext under and illustration or image</p>
-        </div>
-        <div class="random-information-content-container">
-          <img
-            src="http://via.placeholder.com/150x150"
-            alt="Random information image 2"
-          />
-          <p>This is some subtext under and illustration or image</p>
-        </div>
-        <div class="random-information-content-container">
-          <img
-            src="http://via.placeholder.com/150x150"
-            alt="Random information image 3"
-          />
-          <p>This is some subtext under and illustration or image</p>
-        </div>
-        <div class="random-information-content-container">
-          <img
-            src="http://via.placeholder.com/150x150"
-            alt="Random information image 4"
-          />
-          <p>This is some subtext under and illustration or image</p>
+        <h2 class="information-header-text">
+          Some random information about catz.
+        </h2>
+        <div class="random-information-image-container">
+          <div class="individual-image-container">
+            <img
+              class="random-image same-height-image"
+              src="./img/michael-sum-random-1-unsplash.jpg"
+              alt="Random information image 1"
+            />
+            <p>They sometimes be chillin' doe</p>
+            <p class="attribution-text dark-color">
+              Photo by
+              <a
+                class="attribution-text dark-color"
+                href="https://unsplash.com/@michaelsum1228?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Michael Sum</a
+              >
+              on
+              <a
+                class="attribution-text dark-color"
+                href="https://unsplash.com/s/photos/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </p>
+          </div>
+          <div class="individual-image-container">
+            <img
+              class="random-image same-height-image"
+              src="./img/raoul-droog-random-2-unsplash.jpg"
+              alt="Random information image 2"
+            />
+            <p>Sometimes they are being cool catz</p>
+            <p class="attribution-text dark-color">
+              Photo by
+              <a
+                class="attribution-text dark-color"
+                href="https://unsplash.com/@raouldroog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Raoul Droog</a
+              >
+              on
+              <a
+                class="attribution-text dark-color"
+                href="https://unsplash.com/s/photos/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </p>
+          </div>
+          <div class="individual-image-container">
+            <img
+              class="random-image same-height-image"
+              src="./img/cyrus-chew-random-3-unsplash.jpg"
+              alt="Random information image 3"
+            />
+            <p>Angry catz, they demand food now peasants!</p>
+            <p class="attribution-text dark-color">
+              Photo by
+              <a
+                class="attribution-text dark-color"
+                href="https://unsplash.com/@cyrus_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Cyrus Chew</a
+              >
+              on
+              <a
+                class="attribution-text dark-color"
+                href="https://unsplash.com/s/photos/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </p>
+          </div>
+          <div class="individual-image-container">
+            <img
+              class="random-image same-height-image"
+              src="./img/svklimkin-random-4-unsplash.jpg"
+              alt="Random information image 4"
+            />
+            <p>This is some subtext under an illustration or image</p>
+            <p class="attribution-text dark-color">
+              Photo by
+              <a
+                class="attribution-text dark-color"
+                href="https://unsplash.com/@svklimkin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >svklimkin</a
+              >
+              on
+              <a
+                class="attribution-text dark-color"
+                href="https://unsplash.com/s/photos/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
+    <!--Quote section-->
     <div class="quote-outer-container">
       <div class="quote-inner-container">
         <p class="quote-text">
-          This is an inspiring quote, or a testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it. Who
-          knows? All I know is that is looks nice.
+          Cats is cute, I like cats. But I also like dogs? I'm very conflicted
+          right now, help me decide to like cats or dogs.
         </p>
-        <p class="quote-author">-Thor, God of Thunder</p>
+        <div class="quote-author">
+          -Felix, Cats Lover
+        </div>
       </div>
     </div>
 
-    <div class="sign-up-outer-container">
-      <div class="sign-up-inner-container">
-        <div class="left-sign-up-container">
-          <p class="call-to-action">Call to action! It's time!</p>
-          <p>
+    <!--Call to action section-->
+    <div class="call-to-action-outer-container">
+      <div class="call-to-action-inner-container">
+        <div class="call-to-action-left-container">
+          <p class="call-to-action-header-text">Call to action! It's time!</p>
+          <p class="call-to-action-content-text">
             Sign up for our product by clicking that button right over there!
           </p>
         </div>
-        <div class="right-sign-up-container">
+        <div class="call-to-action-right-container">
           <button class="btn-sign-up btn-sign-up-outline">Sign up</button>
         </div>
       </div>
     </div>
 
+    <!--Footer-->
     <footer>
-      <section class="footer-inner-container">
-        <p>Copyright (Copyright logo) The Odin Project 2021</p>
-      </section>
+      <div class="footer-inner-container">
+        <p>Copyright The Odin Project 2021</p>
+      </div>
     </footer>
   </body>
 </html>
